@@ -1,0 +1,682 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i');
+@font-face {
+    font-family: "ivan";
+    src: url("../fonts/15533.otf");
+}
+
+body {
+    background: #5bd609;
+    margin: 0px;
+    padding: 0px;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1280px;
+    margin: 0px auto;
+    background: #282828;
+}
+
+.banner {
+    width: 100%;
+    float: left;
+    background: #282828 url(../images/images/Recovered_01.png) repeat-x;
+    min-height: 560px;
+}
+
+.logo {
+    float: left;
+    font-family: "Arial";
+    color: #fcfcfc;
+    font-size: 29px;
+    margin: 30px 0px 0px 20px;
+    width: 60px;
+    min-height: 30px;
+    padding: 0px 0px 0px 25px;
+}
+
+.menu {
+    float: right;
+    margin: 30px 30px 0px 0px;
+    width: 660px;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    float: right;
+}
+
+.menu ul li {
+    float: left;
+    margin: 0 0 0 25px;
+}
+
+.menu ul li.first {
+    margin: 0px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #fcfcfc;
+}
+
+.menu ul li.first a {
+    text-decoration: underline;
+    color: #fcfcfc;
+    font-family: "Gill Sans Nova Heavy";
+    font-size: 17px;
+}
+
+.Search {
+    text-decoration: none;
+    border-radius: 20px;
+    border: 1px solid #ffffff;
+    padding: 15px 20px
+}
+
+.text {
+    float: left;
+    font-family: "Arial";
+    font-size: 23px;
+    color: #ffffff;
+    width: 800px;
+    margin: 228px 0px 35px -55px;
+    padding: 10px 10px 10px 10px;
+}
+
+.button {
+    float: left;
+    font-family: "Gill Sans Nova Book Italic";
+    color: #19cf08;
+    text-decoration: none;
+    border: 1px solid #f3d218;
+    padding: 5px 10px;
+    background-color: #c41919;
+}
+
+.container_2 {
+    width: 1200px;
+    float: left;
+    margin: 0px auto;
+    min-height: 1400px;
+}
+
+.left {
+    float: left;
+    width: 805px;
+    min-height: 1410px;
+}
+
+.banner2 {
+    float: left;
+    width: 800px;
+    background: #ffffff;
+    margin: 0px auto;
+    min-height: 355px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+}
+
+.stroka {
+    position: relative;
+    float: left;
+    width: 800px;
+    background: #3d3c3c;
+    margin: 0px auto;
+    min-height: 50px;
+}
+
+.stroka ul {
+    list-style: none;
+    padding: 0px;
+    margin: 15px;
+    float: left;
+}
+
+.stroka ul li {
+    float: left;
+    margin: 0 0 0 45px;
+}
+
+.stroka ul li a {
+    text-decoration: none;
+    color: #e8e3e3;
+}
+
+.ul li.Two a {
+    text-decoration: underline;
+    color: #fcfcfc;
+    font-family: "Gill Sans Nova Heavy";
+    font-size: 17px;
+}
+
+.Foto {
+    float: left;
+    margin: 81px 15px 0px 25px;
+    width: 45px;
+    min-height: 30px;
+}
+
+.text2 {
+    float: left;
+    font-family: "Arial";
+    font-size: 18px;
+    color: #d63b81;
+    width: 420px;
+    margin: 35px 0px 0px 0px;
+    padding: 10px 10px 10px 10px;
+}
+
+.button2 {
+    float: left;
+    font-size: 23px;
+    font-family: "Gill Sans Nova Book Italic";
+    color: #d63b81;
+    text-decoration: none;
+    margin: 30px 90px 0px 0px;
+    border: 1px solid #d21e72;
+    padding: 5px 10px
+}
+
+.Foto1 {
+    float: right;
+    margin: 31px 25px 0px 0px;
+    width: 200px;
+    min-height: 230px;
+}
+
+.banner3 {
+    float: left;
+    width: 393px;
+    min-height: 400px;
+    background: #ffffff;
+    margin-bottom: 20px;
+    margin-right: 15px;
+}
+
+.Foto2 {
+    float: left;
+    width: 390px;
+    min-height: 206px;
+}
+
+.text3 {
+    float: left;
+    margin: 0px 0px 0px 20px;
+    font-family: "Arial";
+    font-size: 15px;
+}
+
+.color {
+    color: #c5c4c4;
+    font-size: 13px;
+}
+
+.stroka2 {
+    float: left;
+    width: 393px;
+    min-height: 63px;
+    background: #3d3c3c;
+}
+
+.button3 {
+    float: left;
+    font-size: 23px;
+    font-family: "Gill Sans Nova Book Italic";
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0px 10px 0px 45px;
+    border: 1px solid #ffffff;
+    padding: 5px 10px
+}
+
+.button4 {
+    float: right;
+    font-size: 23px;
+    font-family: "Gill Sans Nova Book Italic";
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0px 120px 0px 0px;
+    border: 1px solid #ffffff;
+    padding: 5px 10px
+}
+
+.banner4 {
+    float: left;
+    width: 393px;
+    min-height: 620px;
+    margin: 0px auto;
+    background: #ffffff;
+    margin-right: 4px;
+    margin-bottom: 15px;
+}
+
+.Foto3 {
+    float: left;
+    width: 393px;
+    min-height: 425px;
+}
+
+.text4 {
+    float: left;
+    margin: 0px 20px 0px 25px;
+    font-family: "Arial";
+    font-size: 17px;
+}
+
+.color1 {
+    color: #c5c4c4;
+    font-size: 15px;
+}
+
+.stroka3 {
+    float: left;
+    width: 393px;
+    min-height: 63px;
+    background: #3d3c3c;
+}
+
+.banner5 {
+    float: left;
+    width: 393px;
+    min-height: 523px;
+    margin: -242px 0px 0px 0px;
+    background: #282828 url(../images/images/Peizah_06.png);
+    margin-right: 15px;
+}
+
+.text5 {
+    float: left;
+    margin: 410px 20px 0px 25px;
+    font-family: "Arial";
+    font-size: 17px;
+    color: #ffffff;
+}
+
+.banner6 {
+    float: left;
+    width: 393px;
+    min-height: 297px;
+    margin-bottom: 18px;
+    background: #ffffff;
+}
+
+.text6 {
+    float: left;
+    margin: 0px 0px 0px 20px;
+    font-family: "Arial";
+    font-size: 17px;
+}
+
+.Zagolovok {
+    color: #c5c4c4;
+    font-size: 15px;
+    margin: 0px 0px 0px 0px;
+}
+
+.color2 {
+    color: #c5c4c4;
+    font-size: 17px;
+    margin: 0px 0px -25px 0px;
+}
+
+.stroka4 {
+    float: left;
+    width: 393px;
+    min-height: 72px;
+    background: #3d3c3c;
+    margin: 46px 0px 0px -20px;
+}
+
+.Knopka {
+    float: left;
+    width: 802px;
+    min-height: 55px;
+    background: #ffa703;
+    margin: auto;
+}
+
+.button_5 {
+    float: left;
+    margin: 3px 10px 0px 360px;
+}
+
+.button_6 {
+    font-size: 18px;
+    font-family: "Gill Sans Nova Book Italic";
+    color: #ffffff;
+    text-decoration: none;
+    padding: 5px 10px;
+    margin: 0px 0px 0px -4px;
+}
+
+.right {
+    float: right;
+    width: 393px;
+    min-height: 1408px;
+}
+
+.banner7 {
+    float: right;
+    width: 390px;
+    min-height: 425px;
+    margin: 0px auto;
+    padding: 0px 0px 0px 0px;
+}
+
+.Knopki {
+    float: left;
+    width: 386px;
+    min-height: 60px;
+    margin: auto;
+}
+
+.left1 {
+    float: left;
+    width: 193px;
+    min-height: 59px;
+    background: #e9e4e4;
+}
+
+.right1 {
+    float: right;
+    width: 193px;
+    min-height: 66px;
+    background: #3d3c3c;
+}
+
+.text7 {
+    margin: 24px 55px 24px 55px;
+    color: #686666;
+}
+
+.text8 {
+    margin: 24px 30px 24px 40px;
+    color: #bebaba;
+}
+
+.Clova {
+    float: left;
+    width: 386px;
+    min-height: 60px;
+    background: #ffffff;
+    margin-bottom: 15px;
+}
+
+.Clova ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.Clova ul li {
+    float: left;
+    padding: 20px 0px 0px 45px;
+    color: #727171;
+    background: url(../images/images/04757-Recovered_03.png) no-repeat;
+    background-position: 345px 23px;
+    width: 100%;
+    box-sizing: border-box;
+    height: 60px;
+    border-bottom: 1px solid;
+}
+
+.dark {
+    color: #3d3c3c;
+}
+
+.gree {
+    color: #e2e1e1;
+}
+
+.with {
+    color: #ffffff;
+    font-size: 17px;
+    padding: 15px 0px 0px 60px;
+    margin: 0px 0px 0px 45px;
+}
+
+.Slov {
+    float: left;
+    width: 385px;
+    min-height: 55px;
+    background: #3d3c3c;
+    padding: 0px 0px 0px 45px;
+    margin: 0px 0px 0px 3px;
+    font-family: ;
+}
+
+.banner8 {
+    float: left;
+    width: 385px;
+    min-height: 570px;
+    margin-bottom: 20px;
+    background: #ffffff;
+    margin: 0px 0px 0px 3px;
+}
+
+.text9 {
+    float: left;
+    width: 337px;
+    min-height: 55px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 20px;
+    font-family: "Aleo";
+}
+
+.text9>h2:first-child {
+    margin: 20px 0px 0px 0px;
+}
+
+.text9>h2:last-child {
+    margin: 5px 0px 40px 0px;
+}
+
+.Son {
+    float: left;
+    width: 333px;
+    min-height: 210px;
+    border: 1px solid #ff9b00;
+    margin: 0px 0px 0px 20px;
+    background: #f4e6d2;
+    margin-bottom: 20px;
+}
+
+.Foto5 {
+    float: right;
+    padding: 25px 0px 0px 10px;
+    width: 200px;
+    min-height: 210px;
+}
+
+.text10 {
+    float: left;
+    width: 100px;
+    min-height: 62px;
+    margin: 0px 0px 0px 0px;
+    padding: 30px 0px 0px 25px;
+}
+
+.text10>p:first-child {
+    margin: 20px 0px 0px 0px;
+    color: #c9c9c9;
+    font-size: 20px;
+}
+
+.text10>h2:last-child {
+    margin: 5px 0px 40px 0px;
+    font-size: 50px;
+    font-family: "Aleo";
+}
+
+.Pogoda {
+    float: left;
+    width: 310px;
+    min-height: 130px;
+    margin: 0px 0px 0px 30px;
+}
+
+.Pogoda1 {
+    float: left;
+    width: 60px;
+    min-height: 123px;
+    margin: 10px 0px 0px 20px;
+    border-right: 2px dotted #c0bfbf;
+}
+
+.Pogoda2 {
+    float: left;
+    width: 60px;
+    min-height: 123px;
+    margin: 10px 0px 0px 20px;
+    border-right: 2px dotted #c0bfbf;
+}
+
+.Pogoda3 {
+    float: left;
+    width: 60px;
+    min-height: 123px;
+    margin: 10px 0px 0px 15px;
+    border-right: 2px dotted #c0bfbf;
+}
+
+.Pogoda4 {
+    float: left;
+    width: 60px;
+    min-height: 123px;
+    margin: 10px 0px 0px 15px;
+    border-right: 2px dotted #c0bfbf;
+}
+
+.Foto6 {
+    float: left;
+    width: 40px;
+    min-height: 40px;
+    margin: 20px 0px 0px 10px;
+}
+
+.Foto7 {
+    float: left;
+    width: 40px;
+    min-height: 40px;
+    margin: 20px 0px 0px 10px;
+}
+
+.Pogoda1>p:first-child {
+    margin: 10px 0px 0px 4px;
+    color: #c9c9c9;
+    font-size: 16px;
+}
+
+.Pogoda2>p:first-child {
+    margin: 10px 0px 0px 4px;
+    color: #c9c9c9;
+    font-size: 16px;
+}
+
+.Pogoda3>p:first-child {
+    margin: 10px 0px 0px 4px;
+    color: #c9c9c9;
+    font-size: 16px;
+}
+
+.Pogoda4>p:first-child {
+    margin: 10px 0px 0px 4px;
+    color: #c9c9c9;
+    font-size: 16px;
+}
+
+.last-child {
+    margin: 5px 0px 0px 5px;
+    font-size: 16px;
+    font-family: "Aleo";
+}
+
+.London {
+    float: left;
+    width: 333px;
+    min-height: 40px;
+    margin: 30px 25px 25px 25px;
+    background-color: #dad8d8;
+}
+
+.text11 {
+    float: left;
+    margin: 15px 200px 15px 20px;
+    color: #292626;
+}
+
+.Lupa {
+    float: right;
+    margin: 15px 20px 15px 0px;
+}
+
+.Slov2 {
+    float: left;
+    width: 388px;
+    min-height: 40px;
+    background: #3d3c3c;
+    padding: 0px 0px 0px 20px;
+    margin: 14px 0px 0px 0px;
+    font-family: ;
+}
+
+.banner9 {
+    float: left;
+    width: 388px;
+    min-height: 229px;
+    background-color: #ffffff;
+    margin: 0px 0px 0px 0px;
+}
+
+.Foto8 {
+    float: left;
+    width: 100px;
+    min-height: 40px;
+    margin: 10px 16px 10px 14px;
+    position: relative;
+}
+
+.Foto9 {
+    float: left;
+    width: 90px;
+    min-height: 40px;
+    margin: 10px 17px 10px 5px;
+    position: relative;
+}
+
+.Foto10 {
+    float: left;
+    width: 80px;
+    min-height: 40px;
+    margin: 10px 0px 10px 15px;
+    position: relative;
+}
+
+.Foto11 {
+    float: left;
+    width: 84px;
+    min-height: 40px;
+    margin: 0px 14px 0px 14px;
+    position: relative;
+}
+
+.Foto12 {
+    float: left;
+    width: 81px;
+    min-height: 40px;
+    margin: 0px 16px 0px 25px;
+    position: relative;
+}
+
+.Foto13 {
+    float: left;
+    width: 50px;
+    min-height: 40px;
+    margin: 0px 14px 0px 24px;
+    position: relative;
+}

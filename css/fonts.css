@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "Aleo";
+  src:url("../fonts/Aleo-Italic.ttf");
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Aleo";
+  src:url("../fonts/Aleo-Light.ttf");
+  font-weight:300;
+  font-style:normal;
+}
