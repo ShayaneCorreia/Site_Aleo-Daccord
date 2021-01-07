@@ -5,7 +5,7 @@
 }
 
 body {
-    background: #5bd609;
+    background: #000000;
     margin: 0px;
     padding: 0px;
 }
@@ -92,18 +92,16 @@ div {
 .button {
     float: left;
     font-family: "Gill Sans Nova Book Italic";
-    color: #19cf08;
+	color: #ffffff;
     text-decoration: none;
-    border: 1px solid #f3d218;
-    padding: 5px 10px;
-    background-color: #c41919;
+    border: 1px solid #ffffff;
+    padding: 5px 10px
 }
 
 .container_2 {
     width: 1200px;
-    float: left;
     margin: 0px auto;
-    min-height: 1400px;
+    min-height: 2025px;
 }
 
 .left {
@@ -337,7 +335,7 @@ div {
     float: left;
     width: 802px;
     min-height: 55px;
-    background: #ffa703;
+    background: #3d3c3c;
     margin: auto;
 }
 
